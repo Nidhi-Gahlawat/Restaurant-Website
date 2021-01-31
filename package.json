@@ -1,0 +1,33 @@
+{
+  "name": "full-stack-course-coursera-week-1",
+  "version": "1.0.0",
+  "description": "Full stack Web Development Course Week number 1",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\""
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi-Gahlawat/Full-Stack-Course-Coursera-week-1.git"
+  },
+  "author": "Nidhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi-Gahlawat/Full-Stack-Course-Coursera-week-1/issues"
+  },
+  "homepage": "https://github.com/Nidhi-Gahlawat/Full-Stack-Course-Coursera-week-1#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.2",
+    "sass": "^1.32.0"
+  }
+}

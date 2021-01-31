@@ -1,0 +1,98 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 260px; }
+
+.footer {
+  background-color:#95DBE5FF;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  background-color: rgb(40, 192, 192);
+  margin: 0px auto;
+  padding: 70px 30px; 
+color: floralwhite;}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color:#078282FF }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.carousel {
+  background: rgb(212, 90, 212); }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0;
+  position: absolute;
+  bottom: 0px; }
+
+.modal-header {
+  background-color:#078282FF ;
+  color: floralwhite; }
+
+.modal-body {
+  background-color: #f2ddf7; }
+
+.cl, .close, .close :hover, .close :active {
+  color: floralwhite; }
+
+.menu{
+border: 2px solid #6ff5ea;
+border-radius: 10px;
+background-color: #f2ddf7;
+
+}
+
+
+.menu1{
+  border: 2px solid #6ff5ea;
+  border-radius: 10px;  
+ }
+  
+  .menu2{
+    border: 2px solid #e198f3;
+    border-radius: 10px;    
+    }
+#menu-content img{
+height: 160px;
+width: 210px;
+}
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:50.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
