@@ -38,14 +38,15 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: rgb(212, 90, 212); }
+  background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);     
+}
   .carousel .carousel-item {
-    height: 300px; }
+    height: 350px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      min-height: 350px; }
 
 #carouselButton {
   right: 0;
