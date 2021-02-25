@@ -1,5 +1,5 @@
-# Restaurant Website  :yum:
-
+# Swadisht: Swaad India Ka  :yum:
+### (A restaurant site based project) 
 ## Built with ⌨️ 
 * HTML5
 * CSS3
